@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>foodies</title>
+<link rel="stylesheet" type="text/css" href="mystyle.css"/>
+</head>
+
+<body>
+<div id="wrapper">
+
+
+<ul id="nav">
+
+<li> <a href="index.html"> HOME</a> </li>
+<li> <a href="offer.html"> OFFER </a> </li>
+<li> <a href="menu1.html"> MENU </a> </li>
+<li> <a href="contact1.html"> FEEDBACK </a> </li>
+</ul>
+
+<div id="content">
+
+
+<div class="container">
+  <form action="action_page.php">
+  <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name.."> <br> <br>
+
+
+
+    <label for="lname">Last Name(optional)</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."> <br> <br>
+
+  
+ <label for="email">Email Id</label>
+    <input type="text" id="email" name="emailid" placeholder="enter Your Email Id."> <br> <br>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> <br> <br>
+
+    <input type="submit" value="Submit">
+
+   </form>
+</div>
+
+
+</div><br><br>
+<div id="footer"> &copy right 2018; inlight Technology, Latur
+</div>
+</div>
+</body>
+
+</html>

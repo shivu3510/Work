@@ -1,0 +1,123 @@
+body{
+	font-family:verdana;
+	background:#f2f2f2;
+}
+
+#rbox{
+	background:red;
+}
+#wrapper{
+	width:980px;
+	margin:0 auto;
+	background:#f2f2f2;
+}
+
+#header{
+	
+	height:500px;
+	margin:0px;
+}
+
+#nav{
+	list-style:none;
+	height:40px;
+	display:block;
+	background-color:red;
+	border:1px solid 0000;
+	text-align:center;
+}
+
+#nav li{
+	margin-right:5px;
+	padding:10px;
+	width:200px;
+	text-align:center;
+	float:left;
+	background:#c0c0c0;
+}
+
+#content{
+	width:980px;
+	border:1px solid 0000;
+background:#f2f2f2;
+}
+.cntt{
+	width:980px;
+	border:1px solid 0000;
+background:#f2f2f2;
+}
+.input-group
+{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background:#fff;
+    margin: auto;
+    padding: 6px;
+display:inline;
+}
+.form-control
+{
+    border-color:#0000 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow:none !important;
+    
+
+}
+.input-group-text
+{
+    width:100px;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color:#fff !important;
+    padding: 0 25px !important;
+    border-radius: 30px !important;
+    box-shadow: none !important;
+
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+background:#f2f2f2;
+
+}
+#footer{
+	color:#ffffff;
+	text-align:center;
+	width:980px;
+	height:50px;
+	border:1px solid 0000;
+	background:#000000;
+	
+	
+}

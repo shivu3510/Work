@@ -1,0 +1,14 @@
+body{
+	fonbackground:url("img1.jpg") ;
+	background-repeat: no-repeat;
+  background-size: cover;
+}
+blackquote{
+	text-align:justify;
+}
+ol{
+	list-style-type:lower-roman;
+}
+h2{
+	text-align:center;
+	}
